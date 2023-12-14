@@ -1,0 +1,100 @@
+#welcome {
+  text-align: center;
+  color: #fff;
+  background-color: #483d8b;
+  margin: auto;
+  padding: 40px;
+  font-family: Cascadia Code, serif;
+  font-size: 40px
+}
+
+#about, #proj, #link {
+  margin: auto;
+  padding: 20px 20px 10px;
+  font-family: Cascadia Code, serif;
+  font-size: 50px
+}
+
+#text {
+  justify-content: left;
+  margin: auto;
+  padding: 0 60px 10px;
+  font-family: Cascadia Code, serif;
+  font-size: 20px
+}
+
+#skills {
+  grid-gap: 40px;
+  grid-template-columns:1fr 1fr 1fr;
+  padding: 20px;
+  display: grid
+}
+
+#skill {
+  text-align: center;
+  margin: auto;
+  font-family: Cascadia Code, serif;
+  font-size: 30px
+}
+
+#desc {
+  padding: 0 20px;
+  font-family: Cascadia Code, serif;
+  font-size: 20px
+}
+
+#name {
+  padding: 0 20px;
+  font-family: Cascadia Code, serif;
+  font-size: 30px
+}
+
+#proj {
+  color: #fff;
+  background-color: #191e22
+}
+
+#projects {
+  grid-gap: 40px;
+  color: #fff;
+  background-color: #191e22;
+  grid-template-rows:1fr 1fr 1fr;
+  padding: 20px 100px;
+  display: grid
+}
+
+#project {
+  grid-gap: 10px;
+  color: #fff;
+  background-color: #191e22;
+  grid-template-columns:1fr 1fr;
+  display: grid
+}
+
+#image {
+  max-height: 200px
+}
+
+#link {
+  color: #fff;
+  text-align: center;
+  background-color: #483d8b;
+  padding: 1px 20px 50px;
+  font-family: Cascadia Code, serif;
+  font-size: 40px
+}
+
+#links {
+  text-align: center;
+  background-color: #483d8b;
+  max-width: 60%;
+  margin: auto;
+  font-family: Cascadia Code, serif;
+  font-size: 30px
+}
+
+a {
+  color: #fff;
+  padding: 20px;
+  text-decoration: none
+}
